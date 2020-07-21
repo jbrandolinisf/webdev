@@ -10,5 +10,18 @@
 function copy(object) {
 
   // Your code here.
+  let newObj = {};
+
+  for (let prop in object) {
+      if (object.hasOwnProperty(prop) === true) {
+        let propDescriptor = Object.getOwnPropertyDescriptor(object, prop);
+        Object.defineProperty(newObj, prop, {
+            value: object[prop],
+            writable: propDescriptor.writable,
+            configurable: propDescriptor.configurable
+        })
+      }
+  }
+  return newObj;
 
 }
