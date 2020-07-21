@@ -6,11 +6,7 @@
 // to achieve this.
 function exercise1(input) {
 
-  if (input === 42) {
-      return true;
-  } else {
-      return false;
-  }
+  // Your code here.
 
 }
 
@@ -24,13 +20,7 @@ function exercise1(input) {
 // Use an `if' statement to achieve this.
 function exercise2(input) {
 
-    if (input === 42) {
-        return true;
-    } else if (input === 43) {
-        return null;
-    } else {
-        return false;
-    }
+  // Your code here.
 
 }
 
@@ -39,15 +29,8 @@ function exercise2(input) {
 //
 // Repeat exercise 2, this time using a `switch' statement.
 function exercise3(input) {
-    let result = false;
-    switch (input) {
-        case 42: result = true;
-                    break;
-        case 43: result = null;
-                    break;
-        default: result =  false;
-    }
-    return result;
+
+  // Your code here.
 
 }
 
@@ -63,9 +46,8 @@ function exercise3(input) {
 //
 function exercise4(counter) {
 
-    for (let i=0; i < 3; i++) {
-        counter();
-    }
+  // Your code here.
+
 }
 
 /****************************************************************************/
@@ -75,13 +57,6 @@ function exercise4(counter) {
 // the sum of those numbers.
 function exercise5(numbers) {
 
-
-    // of will return 0 .. index elements
-    // in will return all elements in array, even weirdly indexed ones...
-  let sum = 0;
-  for (val of numbers) {
-      sum += val;
-  }
-  return sum;
+  // Your code here.
 
 }

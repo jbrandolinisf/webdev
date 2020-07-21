@@ -14,7 +14,7 @@ function exercise1() {
  */
 function exercise2() {
 
-  return '12345';
+  // Your code here.
 
 }
 
@@ -23,21 +23,16 @@ function exercise2() {
  */
 function exercise3() {
 
-  let myArr = [1,2,3,4]
-  return myArr;
+  
 }
 
 /**
  * EXERCISE 4: return the value of the string with "**" on either side
  */
 function exercise4(str) {
-    return `**${str}**`;
+
 }
 
-
-function addten(value){
-        return value + 10;
-}
 /**
  * EXERCISE 5: create a return a function that adds 10 to the given `value` argument and returns it
  *
@@ -45,11 +40,5 @@ function addten(value){
  */
 function exercise5(value) {
 
-    // use
-    // if (typeof banana === 'undefined')
-
-    return function() {
-        return addten(value);
-    }
-
+  
 }
